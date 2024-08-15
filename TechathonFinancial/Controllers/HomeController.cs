@@ -18,6 +18,33 @@ namespace TechathonFinancial.Controllers
         {
             return View();
         }
+
+        public IActionResult Mortgages()
+        {
+            return View();
+        }
+
+        public IActionResult Pensions()
+        {
+            return View();
+        }
+
+        public IActionResult Savings()
+        {
+            return View();
+
+        }
+
+        public IActionResult Investments()
+        {
+            return View();
+        }
+
+        public IActionResult FinanceNews()
+        {
+            return View();
+        }
+
         [Authorize]
         public IActionResult Privacy()
         {
