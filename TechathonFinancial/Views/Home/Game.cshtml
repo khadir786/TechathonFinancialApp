@@ -1,0 +1,19 @@
+﻿@model TechathonFinancial.Models.Game
+
+@{
+    ViewData["Title"] = "Check Input Example";
+}
+
+<h2>Check Input Example</h2>
+
+@using (Html.BeginForm())
+{
+    <div>
+        <label for="userInput">Enter a value:</label>
+        @Html.TextBoxFor(m => m.UserInput)
+    </div>
+    <div>
+        <input type="submit" value="Submit" />
+    </div>
+}
+
