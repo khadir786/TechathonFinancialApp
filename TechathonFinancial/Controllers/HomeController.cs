@@ -50,6 +50,11 @@ namespace TechathonFinancial.Controllers
         {
             return View();
         }
+        [Authorize]
+        public IActionResult Dashboard()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
