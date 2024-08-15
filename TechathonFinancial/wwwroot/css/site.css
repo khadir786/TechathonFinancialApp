@@ -52,8 +52,11 @@ body {
     max-height:120%;
     max-width:120%;
 }
-.module_body{
+.module_body {
     background-color: lightgrey;
-    height:100%;
-    padding:1em;
+    height: 100%;
+    padding: 1em;
+    color: black;
+    text-decoration: none;
 }
+
